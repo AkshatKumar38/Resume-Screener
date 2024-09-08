@@ -5,7 +5,7 @@ This project is aimed at automating the resume screening process using Natural L
 ## Features
 - **Data Preprocessing**: Cleans and processes resume data from `UpdatedResumeDataSet.csv`.
 - **Text Vectorization**: Uses NLP techniques like TF-IDF for converting resume text into numerical format.
-- **Model Training**: Applies machine learning models (e.g., Logistic Regression, Random Forest, etc.) to classify resumes into relevant job categories.
+- **Model Training**: Applies machine learning models (e.g.train_test_split,KNeighborsClassifier etc.) to classify resumes into relevant job categories.
 - **Web Interface**: Streamlit-based website for users to upload resumes and view predictions.
 - **Job Category Prediction**: Automatically predicts the job category of a resume based on its content.
 
@@ -16,8 +16,9 @@ This project is aimed at automating the resume screening process using Natural L
  ┣ 📂data
  ┃ ┣ 📜UpdatedResumeDataSet.csv       # Resume dataset for training
  ┣ 📂notebooks
- ┃ ┣ 📜data_preprocessing.ipynb       # Data cleaning and preprocessing
- ┃ ┣ 📜model_training.ipynb           # Model training and evaluation
+ ┃ ┣ 📜ResumeScreenerFile.ipynb       # Data cleaning and preprocessing
+ ┃ ┣ 📜clf.pkl
+ ┃ ┣ 📜tfidf.pkl
  ┣ 📂app
  ┃ ┣ 📜app.py                         # Streamlit web app file
  ┣ 📜requirements.txt                 # Python libraries needed for the project
