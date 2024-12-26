@@ -1,5 +1,3 @@
-# Define the content for the README.md file
-readme_content = """
 # Resume Screener
 
 The Resume Screener is a machine learning-based application designed to automate the process of filtering and ranking resumes. It leverages natural language processing (NLP) and classification models to identify the most suitable candidates based on predefined criteria.
@@ -25,3 +23,36 @@ The Resume Screener is a machine learning-based application designed to automate
 To set up and run the project, install the required dependencies listed in `requirements.txt`:
 ```bash
 pip install -r requirements.txt
+```
+## Installation and Setup
+1. Clone the repository:
+```bash
+Copy code
+git clone https://github.com/AkshatKumar38/Resume-Screener.git
+```
+2. Navigate to the project directory:
+```bash
+Copy code
+cd Resume-Screener
+```
+3. Install the required Python libraries:
+```bash
+Copy code
+pip install -r requirements.txt
+```
+## Usage
+- Run the main application located in the App/ directory.
+- Provide a dataset or upload resumes in the supported formats.
+- View the processed results, which include rankings and insights.
+
+## Technical Overview
+- Machine Learning: The classifier (clf.pkl) predicts the suitability of resumes based on pre-defined labels.
+- Text Processing: TF-IDF (tfidf.pkl) transforms textual data into meaningful numerical features.
+- Interactive Analysis: Jupyter notebooks in Notebooks/ offer detailed exploratory and feature engineering workflows.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For further inquiries or feedback, feel free to contact: Akshat Kumar
+GitHub: AkshatKumar38
